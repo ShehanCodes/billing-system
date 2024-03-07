@@ -145,7 +145,7 @@ int main (void)
         case 2:
         system("clear");
         fp = fopen("RestaurantBill.dat", "r");
-        printf("\n  *****Your Previous Invoices*****\n");
+        printf("\n  ******Your Previous Invoices******\n");
         while(fread(&order, sizeof(struct orders), 1, fp))
         {
             float tot = 0;
